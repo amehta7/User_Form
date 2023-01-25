@@ -11,10 +11,10 @@ const App = () => {
     })
   }
   return (
-    <div>
+    <React.Fragment>
       <AddUser onAddUser={addUserHandler} />
       <UsersList users={userList} />
-    </div>
+    </React.Fragment>
   )
 }
 
